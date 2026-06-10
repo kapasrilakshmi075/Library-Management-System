@@ -8,18 +8,12 @@ A Library Management System built using PostgreSQL and pgAdmin 4 to manage books
 - Table creation
 - Data insertion
 - CRUD operations
-- JOIN queries
+- SQL queries
+- JOINs
 - Aggregate functions
 - GROUP BY and HAVING
 - Window functions
 - Views
-- Stored procedures
-- Triggers
-
-## Technologies Used
-- PostgreSQL
-- pgAdmin 4
-- SQL
 
 ## Database Tables
 - Books
@@ -28,9 +22,14 @@ A Library Management System built using PostgreSQL and pgAdmin 4 to manage books
 - Borrow Records
 - Fine
 
-## Sample Queries
-- Find available books
-- List borrowed books with member names
-- Find overdue books
-- Calculate total fines
-- Find most borrowed books
+## Technologies Used
+- PostgreSQL
+- pgAdmin 4
+- SQL
+
+## Project Structure
+- create_database.sql
+- create_tables.sql
+- insert_data.sql
+- queries.sql
+- Output screenshots
